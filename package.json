@@ -1,10 +1,10 @@
-{ "name": "simplecache"
+{ "name": "simplekache"
 , "description": "Simple cache, in-memory, in-process."
 , "keywords": [ "node", "browser", "cache", "memory" ]
 , "version": "0.0.1alpha"
 , "author": "Angel 'Java' Lopez <webmaster@ajlopez.com> (http://www.ajlopez.com)"
-, "repository": { "type": "git", "url": "git://github.com/ajlopez/SimpleCache.git" }
-, "main": "./lib/simplecache.js"
+, "repository": { "type": "git", "url": "git://github.com/ajlopez/SimpleKache.git" }
+, "main": "./lib/simplekache.js"
 , "engines": { "node": ">= 0.6.0 && < 0.11.0" }
 , "scripts": {
     "test": "simpleunit test"

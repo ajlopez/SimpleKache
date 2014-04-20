@@ -1,4 +1,4 @@
-# SimpleCache
+# SimpleKache
 
 Simple library to chain and run functions with asynchronous calls.
 
@@ -7,7 +7,7 @@ Simple library to chain and run functions with asynchronous calls.
 Via npm on Node:
 
 ```
-npm install simplecache
+npm install simplekache
 ```
 
 ## Usage
@@ -15,7 +15,7 @@ npm install simplecache
 Reference in your program:
 
 ```js
-var sc = require('simplecache');
+var sc = require('simplekache');
 ```
 
 TBD
@@ -35,8 +35,8 @@ MIT
 ## References
 ## Contribution
 
-Feel free to [file issues](https://github.com/ajlopez/SimpleCache) and submit
-[pull requests](https://github.com/ajlopez/SimpleCache/pulls) — contributions are
+Feel free to [file issues](https://github.com/ajlopez/SimpleKache) and submit
+[pull requests](https://github.com/ajlopez/SimpleKache/pulls) — contributions are
 welcome<
 
 If you submit a pull request, please be sure to add or update corresponding
