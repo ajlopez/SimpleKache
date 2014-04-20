@@ -13,12 +13,34 @@ npm install simplekache
 ## Usage
 
 Reference in your program:
-
 ```js
-var sc = require('simplekache');
+var sk = require('simplekache');
 ```
 
-TBD
+Create cache:
+```js
+var cache = sk.create();
+```
+
+Get undefined item:
+```js
+var item = sk.get('foo'); // null
+```
+
+Set and get item:
+```js
+sk.set('one', 1);
+var item = sk.get('one'); // 1
+```
+
+Set item with lifetime in microseconds:
+```js
+sk.set('one', 1, { lifetime: 1000 });
+```
+If the item is not queried in one second, the value is removed from cache.
+If the item is queried in the past second, then the lifetime is extended ONE second more, not since the query time, but
+since the expiration check time.
+
 
 ## Samples
 
